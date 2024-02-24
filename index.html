@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timezone Finder</title>
+</head>
+<body>
+  <h1>Timezone Finder</h1>
+  
+  <div id="current-timezone">
+    <h3>Your Current Timezone:</h3>
+  </div>
+  
+  <div>
+    <input type="text" id="address-input" placeholder="Enter address">
+    <button onclick="getTimezone()">Get Timezone</button>
+    <div id="timezone-result-value"></div>
+
+  </div>
+  
+  <div id="timezone-result">
+    <h3>Timezone for Entered Address:</h3>
+    <p id="timezone-result-value">-</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
